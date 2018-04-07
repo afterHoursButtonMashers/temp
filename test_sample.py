@@ -8,3 +8,8 @@ def inc(var_x):
 def test_answer():
     """Simple unit test"""
     assert inc(4) == 5
+
+
+def test_bad_answer():
+    """test other stuff"""
+    assert inc(3) != 5
